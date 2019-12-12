@@ -17,6 +17,10 @@ class MyApp extends StatelessWidget {
           'login': (BuildContext context) => LoginPage(),
           'home': (BuildContext context) => HomePage(),
         },
+      theme: ThemeData(
+        // colocar el primari color para cambiar el color de los formularios
+        primaryColor: Colors.deepPurple
+      ),
       ),
     );
   }
